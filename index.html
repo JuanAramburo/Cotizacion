@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cotizacion.css">
+    <title>Cotizacion</title>
+</head>
+<body>
+    <br>
+    <section class="cardCotizacion">
+        <header>
+            <h2>Cotizacion</h2>
+        </header>
+        <span>Valor del automovil</span>
+        <span>$</span>
+        <input type="number" name="txtValor" id="txtValor" required>
+        <br>
+        <span>Enganche</span>
+        <span>$</span>
+        <input type="text" id="txtEnganche" readonly>
+        <br>
+        <span>Total a Financiar</span>
+        <span>$</span>
+        <input type="text" id="txtFinanciar" readonly>
+        <br>
+        <span>Planes a credito</span>
+        <select name="cmbplanes" id="cmbplanes">
+            <option value="1"> 12 meses
+                <option value="2">18 meses</option>
+                <option value="3">24 meses</option>
+                <option value="4">36 meses</option>
+                <option value="5">48 meses</option>
+            </option>
+        </select>
+        <br>
+        <span>Plan Mensual</span>
+        <span>$</span>
+        <input type="text" id="txtPago" readonly>
+        <button id="btnCalcular3">Calcular</button>
+        <button id="btnLimpiar3">Limpiar</button>
+        <label for="" id="error3">...</label>
+    </section>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
