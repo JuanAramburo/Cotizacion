@@ -41,6 +41,7 @@ function calcular2(){
 
     }
 };
+
 function limpiar3(){
     document.getElementById("txtValor").value = "";
     document.getElementById("txtEnganche").value = "";
